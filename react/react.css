@@ -1,0 +1,26 @@
+.animals {
+  width: 200px;
+  color: rgb(5, 5, 5);
+  border: 2px solid green;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.animals1 {
+  width: 200px;
+  color: rgb(5, 5, 5);
+  border: 2px solid green;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+@media only screen and (min-width: 46.25em) and (min-width: 63.9375em) {
+  /* .right_col {
+    flex-direction: column-reverse;
+  } */
+  .animals1 {
+    flex-direction: column-reverse;
+    /* background-color: brown; */
+  }
+}
